@@ -1,7 +1,7 @@
 <template>
   <div id="root" class="todo-app__root">
     <header class="todo-app__header">
-      <h1 class="todo-app__title">todos</h1>
+      <h1 class="todo-app__title">Todos</h1>
     </header>
     <section class="todo-app__main">
       <input class="todo-app__input" id="todo-input" type="" placeholder="What needs to be done?" v-model="newitem" @keyup.enter="addnew">

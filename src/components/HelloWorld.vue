@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
-    <h1>Click this</h1>
+    <h1>Click it !</h1>
     <router-link to="/test"><button>go to todolist</button></router-link>
+    <router-link to="/list"><button>go to peoplelist</button></router-link>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ export default {
 
 <style scoped>
 button{
+  margin: 10px;
   border: #777 solid;
   color: #42b983;
   background-color: #eee;
